@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 class AppColor{
 static const white = Color(0xffFFFFFF);
+static const white2 = Color(0xFFF2F2F2);
 static const primary = Color(0xFF2F527B);
 static const secondary = Color(0xffF9A826);
 static const option= Color.fromARGB(7, 96, 102, 208); //70% opaque
