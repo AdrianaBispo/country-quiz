@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w700,
             fontSize: 48,
-            color: AppColor.white2,
+            color: AppColor.results,
               
               ),//country quiz
               headline2: GoogleFonts.poppins(
