@@ -23,6 +23,13 @@ class MyApp extends StatelessWidget {
             color: AppColor.white2,
               
               ),//country quiz
+              headline2: GoogleFonts.poppins(
+                            fontStyle: FontStyle.normal,
+            fontWeight: FontWeight.w700,
+            fontSize: 36,
+            color: AppColor.white2,
+            
+              ),
         ),
       ),
       home: const HomePage(),
