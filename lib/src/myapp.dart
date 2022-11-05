@@ -21,10 +21,9 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.w700,
             fontSize: 48,
             color: AppColor.results,
-              
-              ),//country quiz
-              headline2: GoogleFonts.poppins(
-                            fontStyle: FontStyle.normal,
+          ),
+          headline2: GoogleFonts.poppins(
+            fontStyle: FontStyle.normal,
             fontWeight: FontWeight.w700,
             fontSize: 36,
             color: AppColor.white2,
