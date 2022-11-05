@@ -28,8 +28,13 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.w700,
             fontSize: 36,
             color: AppColor.white2,
-            
-              ),
+          ),
+          button: GoogleFonts.poppins(
+            fontStyle: FontStyle.normal,
+            fontWeight: FontWeight.w600,
+            fontSize: 18,
+            color: AppColor.results,
+          ),
         ),
       ),
       home: const HomePage(),
