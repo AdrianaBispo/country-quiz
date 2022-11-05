@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'view/homepage.dart';
 //utils
 import '../utils/appcolor.dart';
+import '../utils/routes.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -36,7 +37,10 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomePage(),
+      routes: {
+        AppRoutes.home: (context) => HomePage(),
+        AppRoutes.question: (context) => Question(),
+      },
     );
   }
 }
