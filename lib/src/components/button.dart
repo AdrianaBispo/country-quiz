@@ -23,12 +23,7 @@ class CustomButton extends StatelessWidget {
       ),
       child: Text(
         text,
-        style: const TextStyle(
-          fontStyle: FontStyle.normal,
-          fontWeight: FontWeight.w600,
-          fontSize: 18,
-          color: AppColor.results,
-        ),
+        style: Theme.of(context).textTheme.button,
       ),
     );
   }
